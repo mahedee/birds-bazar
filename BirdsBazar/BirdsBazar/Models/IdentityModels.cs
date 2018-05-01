@@ -30,8 +30,8 @@ namespace BirdsBazar.Models
             return new ApplicationDbContext();
         }
 
-        public virtual BirdsType BirdsType { get; set; }
+        public DbSet<BirdsType> BirdsTypes { get; set; }
 
-        public System.Data.Entity.DbSet<BirdsBazar.Models.BirdsType> BirdsTypes { get; set; }
+        public DbSet<PostInfo> PostInfoes { get; set; }
     }
 }
