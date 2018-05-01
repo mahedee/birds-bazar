@@ -373,7 +373,6 @@
     <Content Include="Theme\sass\_bootstrap-compass.scss" />
     <Content Include="Theme\sass\_bootstrap-mincer.scss" />
     <Content Include="Theme\sass\_bootstrap-sprockets.scss" />
-    <Content Include="Views\Shared\_Layout - Copy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201804201401230_InitialCreate.resx">
