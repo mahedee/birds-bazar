@@ -60,8 +60,8 @@
                 </div>
                 <div class="fh5co-top-menu menu-1 text-center">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About","About","Home")</li>
                         @*<li class="has-dropdown">
                             <a href="#">Dropdown</a>
                             <ul class="dropdown">
@@ -71,9 +71,9 @@
                                 <li><a href="#">API</a></li>
                             </ul>
                         </li>*@
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Registration</a></li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        <li>@Html.ActionLink("Login","Login","Account")</li>
+                        <li>@Html.ActionLink("Registration","Register","Account")</li>
                     </ul>
                 </div>
                 <div class="fh5co-top-social menu-1 text-right">
@@ -151,6 +151,7 @@
                         </p>
 
                         <ul class="fh5co-social-icons">
+                
                             <li><a href="#"><i class="icon-twitter"></i></a></li>
                             <li><a href="#"><i class="icon-facebook"></i></a></li>
                             <li><a href="#"><i class="icon-linkedin"></i></a></li>
@@ -176,5 +177,7 @@
     <script src="~/Theme/js/jquery.waypoints.min.js"></script>
     <!-- Main -->
     <script src="~/Theme/js/main.js"></script>
+
+    @RenderSection("scripts", required: false)
 </body>
 </html>
