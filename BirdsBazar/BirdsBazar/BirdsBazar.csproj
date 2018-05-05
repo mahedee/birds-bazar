@@ -226,6 +226,7 @@
     <Content Include="Theme\fonts\bootstrap\glyphicons-halflings-regular.svg" />
     <Content Include="Theme\fonts\icomoon\icomoon.svg" />
     <Content Include="Theme\images\loader.gif" />
+    <Content Include="Theme\images\logo.png" />
     <Content Include="Theme\images\person3.jpg" />
     <Content Include="Theme\images\project-1.jpg" />
     <Content Include="Theme\images\project-2.jpg" />
